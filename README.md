@@ -36,23 +36,17 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 <a href="https://github.com/EliteProTech/ELITE-PRO-V1/fork"><img title="ELITE-PRO-V1" src="https://img.shields.io/badge/FORK-BOT%20REPO-h?color=indigo&style=for-the-badge&logo=stackshare"></a>
   
 ## GET SESSION ID BELOW
-> **1. PAIRING WEBSITE**
+> **FROM PAIRING WEB**
 
-<a href='https://elitepro-session-id1.onrender.com' target="_blank">
+<a href='https://session-id-website.vercel.app/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
 
-> **2. PAIRING WEBSITE**
-
-<a href='https://elitepro-session-id2.onrender.com' target="_blank">
-  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
-</a>
-<br>
 
 ## DEPLOYMENT METHODS
-- Uploading session_id (creds.json) in session folder.
-- Edit Config.js or .env to your Choice.
+- Upload SESSION_ID (creds.json) on session folder or add it to your .env file: SESSION_ID=
+- Edit .env to your Choice.
 
 ---
 
@@ -65,11 +59,11 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ---
 
 ## OTHER DEPLOYMENT PLATFORMS
-- **[BOT-HOSTING.NET](https://bot-hosting.net/)**
-- **[Render](https://render.com)**
-- **[Katabump](https://dashboard.katabump.com/auth/login)**
-- **[Optiklink](https://optiklink.com/)**
-
+- **Deploy on [Render](https://render.com)**
+- **Deploy on [Katabump](https://dashboard.katabump.com/auth/login)**
+- **Deploy on [Optiklink](https://optiklink.com/)**
+- **Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/EliteProTech/ELITE-PRO-V1)**
+- **Deploy on [Bot-Hosting.Net](https://bot-hosting.net/)**
 ---
 
 ## FOR TERMUX/SSH/UBUNTU
@@ -109,7 +103,7 @@ Paste this after the installation
 
 <p align="Left">
     <a align="center">
-  <a aria-label="WEBSITE" href="https://elitepro-website.vercel.app/" target="_blank">
+  <a aria-label="WEBSITE" href="https://eliteprotech.zone.id/" target="_blank">
     <img alt="ELITEPRO-WEB" src="https://img.shields.io/badge/ELITEPRO WEB-25D366?style=for-the-badge&logo=online&logoColor=white" />
 </a>
 <a aria-label="OTHER REPO" href="https://github.com/EliteProTech/Elite-Pro-V2" target="_blank">

@@ -3,8 +3,8 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
-global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
+global.sessionid = process.env.SESSION_ID || '';
+global.ytname = process.env.YT_NAME || "YT: @EliteProTechs";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
 global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
 
@@ -14,7 +14,7 @@ global.ownername = process.env.OWNER_NAME || 'ElitePro';
 global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
 
 // Default settings 
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
+global.prefix = process.env.PREFIX || '.';
 // Settings: true=enable false=disable
 global.autoRecording = process.env.AUTO_RECORDING === 'true';
 global.autoTyping = process.env.AUTO_TYPING === 'true';
@@ -37,26 +37,20 @@ global.themeemoji = process.env.THEME_EMOJI || '👨‍💻';
 global.packname = process.env.PACKNAME || 'Sticker By';
 global.author = process.env.AUTHOR || 'ELITEPRO\n\nContact: +2348109263390';
 // Default settings 2
-global.typemenu = process.env.TYPE_MENU || 'v2';
-global.wm = process.env.WM || "Youtube @EliteProTech";
+global.wm = process.env.WM || "Youtube @EliteProTechs";
 global.link = process.env.LINK || 'https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g';
-
-// Text bug
-global.xbugtex = {
-    xtxt: '👨‍💻ELITE-PRO👨‍💻',
-};
 
 // Reply messages
 global.mess = {
-    done: '*⿻ DONE: Task completed ✔️*',
-    prem: '*⦿ This command is made for premium users.⁉️*',
-    admin: '*⦿ This command is made for group admins.‼️*',
-    botAdmin: '*⦿  Make bot admin to access commands⿻*',
-    owner: '*⦿This commands is made for bot owner.*',
-    group: '*⦿ This command is made for group chat❕*',
-    private: '*⦿ This command is made for private chat ⭕*',
-    wait: '*_⚙️PROCESSING DATA......_*',
-    error: '*‼️AN ERROR OCCUR‼️*',
+    done: '[✔] Task executed successfully.',
+    prem: '[403] Access denied. Premium user required.',
+    admin: '[401] Admin privileges required.',
+    botAdmin: '[401] Bot must be an admin to run this command.',
+    owner: '[403] Command restricted to bot owner.',
+    group: '[400] Command available only in group chats.',
+    private: '[400] Command available only in private chats.',
+    wait: '[⏳] Processing... Please wait.',
+    error: '[500] Unexpected error occurred.',
 };
 
 global.thumb = fs.readFileSync('./EliteProMedia/thumb.jpg');
